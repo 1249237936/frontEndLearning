@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="https://www.baidu.com" method="get">
+			<label for="txt1">姓名</label>
+			<input type="text" id="txt1">
+			<br><br>
+			<label for="txt2">密码</label>
+			<input type="password" id="txt2">
+			<br><br>
+			性别：
+			<input type="radio" name="gender" id="male" checked /><label for="male">男</label>
+			<input type="radio" name="gender" id="female" /><label for="female">女</label>
+			<br><br>
+			学历：
+			<input type="radio" name="edu" id="edu1"/><label for="edu1">本科</label>
+			<input type="radio" name="edu" id="edu2"/><label for="edu2">小学</label>
+			<input type="radio" name="edu" id="edu3"/><label for="edu3">幼儿园</label>
+			<br><br>
+			您的国籍：
+			<select>
+				<option>中国</option>
+				<option>日本</option>
+				<option selected="selected">韩国</option>
+				<option>泰国</option>
+			</select>
+			<select>
+				<optgroup label="亚洲">
+					<option>中国</option>
+					<option>日本</option>
+					<option selected="selected">韩国</option>
+					<option>泰国</option>
+				</optgroup>
+				<optgroup label="欧洲">
+					<option>法国</option>
+					<option>德国</option>
+					<option>意大利</option>
+					<option>英格兰</option>
+				</optgroup>
+			</select>
+			<br><br>
+			你的兴趣爱好是：
+			<input type="checkbox" />抽烟
+			<input type="checkbox" />喝酒
+			<input type="checkbox" id="head" checked="checked"/><label for="head">烫头</label>
+			<br><br>
+			公司简介：
+			<br><br>
+			<textarea></textarea>
+			<br><br>
+			<input type="button" value="按钮" />
+			<input type="submit" value="提交" />
+			<input type="reset" value="重置" />
+			<button type="submit">按钮</button>
+		</form>
+	</body>
+</html>
