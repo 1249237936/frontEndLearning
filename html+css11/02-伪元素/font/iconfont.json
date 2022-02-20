@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1259",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "f014a",
+      "unicode_decimal": 983370
+    },
+    {
+      "icon_id": "691176",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "975628",
+      "name": "定位",
+      "font_class": "dingwei1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    }
+  ]
+}
